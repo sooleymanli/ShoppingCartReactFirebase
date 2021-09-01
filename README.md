@@ -1,3 +1,28 @@
+## Shopping Cart (React + Firebase) Project
+
+
+## Live Demo
+1. #### [Live Demo (github.io) ](https://sooleymanli.github.io/ShoppingCartReactFirebase/) 
+
+## Screenshot
+![ScreenShot](screenshot.gif)
+
+
+## Used
+1. React
+2. Jquery 
+3. Fontawesome 
+4. Animate.css
+5. Firebase Auth
+6. Firebase Firestore
+7. Axios
+8. React Router
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
