@@ -1,0 +1,47 @@
+.footer{
+    margin-top: 0px;
+    margin-bottom: 3px;
+    width: 40%;
+    background-color: #fff;
+    border-radius: 5px;
+    
+}
+
+.footer-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color:#4e54c8;
+
+}
+
+.text{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.link a{
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.link a:hover{
+    cursor: pointer;
+    color:#000;
+
+}
+
+@media screen and (max-width: 769px) {
+    .footer{
+        margin-top: 0px;
+        margin-bottom: 3px;
+        width: 80%;
+        background-color: #fff;
+        border-radius: 5px;
+        
+    }
+}

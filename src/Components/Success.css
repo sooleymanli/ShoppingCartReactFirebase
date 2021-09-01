@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.success{
+   position: absolute;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    z-index: 999;
+    top: 5%;
+
+}
+
+.success-body{
+    width: 28%;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    color: #000;
+}
+
+.success-body span{
+    margin-right: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.success-body i{
+    font-size: 20px;
+    color:rgb(107, 235, 107);
+}
+
+@media screen and (min-width: 1400px){
+    .success{
+        position: absolute;
+         display: flex ;
+         justify-content: center;
+         align-items: center;
+         width: 100%;
+         height: 50px;
+         z-index: 999;
+         top: 30%;
+     
+     }
+     
+    .success-body{
+        width: 30%;
+        height: 50px;
+        background-color: #fff;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .success{
+        position: absolute;
+         display: flex ;
+         justify-content: center;
+         align-items: center;
+         width: 100%;
+         height: 50px;
+         z-index: 999;
+         top: 10%;
+     
+     }
+     
+    .success-body{
+        width: 40%;
+        height: 50px;
+        background-color: #fff;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    .success{
+        position: absolute;
+         display: flex ;
+         justify-content: center;
+         align-items: center;
+         width: 100%;
+         height: 50px;
+         z-index: 999;
+         top: 15%;
+     
+     }
+     
+
+
+    .success-body{
+        width: 50%;
+        height: 50px;
+        background-color: #fff;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+}
+
+
+
+@media screen and (max-width: 576px){
+    .success{
+        position: absolute;
+         display: flex ;
+         justify-content: center;
+         align-items: center;
+         width: 100%;
+         height: 50px;
+         z-index: 999;
+         top: 25%;
+     
+     }
+     
+
+
+    .success-body{
+        width: 70%;
+        height: 50px;
+        background-color: #fff;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+}
+
+@media screen and (max-width: 360px){
+    .success{
+        position: absolute;
+         display: flex ;
+         justify-content: center;
+         align-items: center;
+         width: 100%;
+         height: 50px;
+         z-index: 999;
+         top: 30%;
+     
+     }
+    .success-body{
+        width: 70%;
+        height: 50px;
+        background-color: #fff;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 3vW;
+
+    }
+}

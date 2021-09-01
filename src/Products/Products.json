@@ -1,0 +1,364 @@
+{
+    "products": [
+        {
+            "id": "1",
+            "caption": "HAIER HSU",
+            "description": "Kondisioner HAIER HSU-09HPL03/R3-KIT",
+            "rating": "1",
+            "price": "689",
+            "imageurl": "https://raw.githubusercontent.com/sooleymanli/Shopping-Cart--React-Firebase/Main/img/1.png",
+            "category": "electronics"
+        },
+        {
+            "id": "2",
+            "caption": "Samsung QE55",
+            "description": "QE55Q87TAUXRU",
+            "rating": "2",
+            "price": "319",
+            "imageurl": "https://raw.githubusercontent.com/sooleymanli/Shopping-Cart--React-Firebase/Main/img/2.jpg",
+            "category": "electronics"
+        },
+        {
+            "id": "3",
+            "caption": "Asus X409JA",
+            "description": "Noutbuk Asus X409JA BLUE (90NB0Q94-M05260)",
+            "rating": "3",
+            "price": "1249",
+            "imageurl": "https://raw.githubusercontent.com/sooleymanli/Shopping-Cart--React-Firebase/Main/img/3.jpg",
+            "category": "electronics"
+        },
+        {
+            "id": "4",
+            "caption": "SONY MHC-V21D",
+            "description": "Musiqi mərkəzi SONY MHC-V21D //M E4",
+            "rating": "4",
+            "price": "559",
+            "imageurl": "https://raw.githubusercontent.com/sooleymanli/Shopping-Cart--React-Firebase/Main/img/4.jpg",
+            "category": "electronics"
+        },
+        {
+            "id": "5",
+            "caption": "LG LHD457",
+            "description": "Ev kinoteatrı LG LHD457.AARELLK",
+            "rating": "5",
+            "price": "479",
+            "imageurl": "https://raw.githubusercontent.com/sooleymanli/Shopping-Cart--React-Firebase/Main/img/5.jpg",
+            "category": "electronics"
+        },
+        {
+            "id": "6",
+            "caption": "Samsung Galaxy A52",
+            "description": "Smartfon Samsung Galaxy A52 4GB/128GB BLUE (A525)",
+            "rating": "1",
+            "price": "719",
+            "imageurl": "https://raw.githubusercontent.com/sooleymanli/Shopping-Cart--React-Firebase/Main/img/6.jpg",
+            "category": "electronics"
+        },
+        {
+            "id": "7",
+            "caption": "Apple iPhone 12 mini",
+            "description": "Smartfon Apple iPhone 12 mini 64GB RED",
+            "rating": "2",
+            "price": "1799",
+            "imageurl": "https://raw.githubusercontent.com/sooleymanli/Shopping-Cart--React-Firebase/Main/img/7.jpg",
+            "category": "electronics"
+        },
+        {
+            "id": "8",
+            "caption": "HUAWEI WATCH FIT",
+            "description": "Smart saat HUAWEI WATCH FIT Sakura Pink (55025872)",
+            "rating": "3",
+            "price": "219",
+            "imageurl": "https://raw.githubusercontent.com/sooleymanli/Shopping-Cart--React-Firebase/Main/img/8.jpg",
+            "category": "electronics"
+        },
+        {
+            "id": "9",
+            "caption": "JBL TUNE 600BTNC",
+            "description": "Simsiz qulaqlıq JBL TUNE 600BTNC PINK",
+            "rating": "4",
+            "price": "89",
+            "imageurl": "https://raw.githubusercontent.com/sooleymanli/Shopping-Cart--React-Firebase/Main/img/9.jpg",
+            "category": "electronics"
+        },
+        {
+            "id": "10",
+            "caption": "Samsung Galaxy Tab S7",
+            "description": "Planşet Samsung Galaxy Tab S7 FE LTE 64GB BLACK (T735)",
+            "rating": "5",
+            "price": "1249",
+            "imageurl": "https://raw.githubusercontent.com/sooleymanli/Shopping-Cart--React-Firebase/Main/img/10.jpeg",
+            "category": "electronics"
+        },
+        {
+            "id": "11",
+            "caption": "Sırğa",
+            "description": "Qara və gümüşü sırğa",
+            "rating": "1",
+            "price": "22",
+            "imageurl": "https://raw.githubusercontent.com/sooleymanli/Shopping-Cart--React-Firebase/Main/img/11.jpg",
+            "category": "jewelery"
+        },
+        {
+            "id": "12",
+            "caption": "Mavi qolbağlar",
+            "description": "Mavi qolbağlar",
+            "rating": "2",
+            "price": "6",
+            "imageurl": "https://raw.githubusercontent.com/sooleymanli/Shopping-Cart--React-Firebase/Main/img/12.jpg",
+            "category": "jewelery"
+        },
+        {
+            "id": "13",
+            "caption": "Boyunbağı",
+            "description": "Qaşlarla bəzədilmiş əl işi boyunbağı",
+            "rating": "3",
+            "price": "27",
+            "imageurl": "https://raw.githubusercontent.com/sooleymanli/Shopping-Cart--React-Firebase/Main/img/13.jpg",
+            "category": "jewelery"
+        },
+        {
+            "id": "14",
+            "caption": "Broş",
+            "description": "Əl işi broş",
+            "rating": "4",
+            "price": "19",
+            "imageurl": "https://raw.githubusercontent.com/sooleymanli/Shopping-Cart--React-Firebase/Main/img/14.jpg",
+            "category": "jewelery"
+        },
+        {
+            "id": "15",
+            "caption": "Bijuteriya",
+            "description": "Əl işi bijuteriyalar",
+            "rating": "5",
+            "price": "18",
+            "imageurl": "https://raw.githubusercontent.com/sooleymanli/Shopping-Cart--React-Firebase/Main/img/15.jpg",
+            "category": "jewelery"
+        },
+        {
+            "id": "16",
+            "caption": "Sırğa",
+            "description": "Əl işi sırğa",
+            "rating": "1",
+            "price": "16",
+            "imageurl": "https://raw.githubusercontent.com/sooleymanli/Shopping-Cart--React-Firebase/Main/img/16.jpg",
+            "category": "jewelery"
+        },
+        {
+            "id": "17",
+            "caption": "Zərif aksesuar dəsti",
+            "description": "Zərif aksesuar dəsti",
+            "rating": "2",
+            "price": "53.90",
+            "imageurl": "https://raw.githubusercontent.com/sooleymanli/Shopping-Cart--React-Firebase/Main/img/17.png",
+            "category": "jewelery"
+        },
+        {
+            "id": "18",
+            "caption": "Broş",
+            "description": "Qırmızı broş",
+            "rating": "3",
+            "price": "18",
+            "imageurl": "https://raw.githubusercontent.com/sooleymanli/Shopping-Cart--React-Firebase/Main/img/18.jpg",
+            "category": "jewelery"
+        },
+        {
+            "id": "19",
+            "caption": "Sırğa",
+            "description": "Mavi qaşlarla sırğa",
+            "rating": "4",
+            "price": "17",
+            "imageurl": "https://raw.githubusercontent.com/sooleymanli/Shopping-Cart--React-Firebase/Main/img/19.jpg",
+            "category": "jewelery"
+        },
+        {
+            "id": "20",
+            "caption": "Qadın qol saatı",
+            "description": "Qadın qol saatı və bilərzik dəsti - Anne Klein",
+            "rating": "5",
+            "price": "58",
+            "imageurl": "https://raw.githubusercontent.com/sooleymanli/Shopping-Cart--React-Firebase/Main/img/20.jpg",
+            "category": "jewelery"
+        },
+        {
+            "id": "21",
+            "caption": "Qadın qol saatı",
+            "description": "Qadın qol saatı və bilərzik dəsti - Anne Klein",
+            "rating": "1",
+            "price": "157",
+            "imageurl": "https://raw.githubusercontent.com/sooleymanli/Shopping-Cart--React-Firebase/Main/img/21.jpg",
+            "category": "woman"
+        },
+        {
+            "id": "22",
+            "caption": "Sviter",
+            "description": "Krem rəngdə sviter",
+            "rating": "2",
+            "price": "24",
+            "imageurl": "https://raw.githubusercontent.com/sooleymanli/Shopping-Cart--React-Firebase/Main/img/22.jpg",
+            "category": "woman"
+        },
+        {
+            "id": "23",
+            "caption": "Qadın saroçkası",
+            "description": "Boş model qadın saroçkası",
+            "rating": "3",
+            "price": "22",
+            "imageurl": "https://raw.githubusercontent.com/sooleymanli/Shopping-Cart--React-Firebase/Main/img/23.jpg",
+            "category": "woman"
+        },
+        {
+            "id": "24",
+            "caption": "Platye",
+            "description": "Qara rəngli platye",
+            "rating": "5",
+            "price": "72",
+            "imageurl": "https://raw.githubusercontent.com/sooleymanli/Shopping-Cart--React-Firebase/Main/img/24.jpg",
+            "category": "woman"
+        },
+        {
+            "id": "25",
+            "caption": "Don",
+            "description": "Gümüşü rəngli və zərli midi don",
+            "rating": "4",
+            "price": "76",
+            "imageurl": "https://raw.githubusercontent.com/sooleymanli/Shopping-Cart--React-Firebase/Main/img/25.jpg",
+            "category": "woman"
+        },
+        {
+            "id": "26",
+            "caption": "Don",
+            "description": "Qırmızı rəng midi don",
+            "rating": "1",
+            "price": "59",
+            "imageurl": "https://raw.githubusercontent.com/sooleymanli/Shopping-Cart--React-Firebase/Main/img/26.jpg",
+            "category": "woman"
+        },
+        {
+            "id": "27",
+            "caption": "Don",
+            "description": "Qadın üçün atlasdan qızılı rəngli don",
+            "rating": "2",
+            "price": "59",
+            "imageurl": "https://raw.githubusercontent.com/sooleymanli/Shopping-Cart--React-Firebase/Main/img/27.jpg",
+            "category": "woman"
+        },
+        {
+            "id": "28",
+            "caption": "Çəhrayı Don",
+            "description": "Çəhrayı rəngli və geniş ətəkli don",
+            "rating": "3",
+            "price": "49",
+            "imageurl": "https://raw.githubusercontent.com/sooleymanli/Shopping-Cart--React-Firebase/Main/img/28.jpg",
+            "category": "woman"
+        },
+        {
+            "id": "29",
+            "caption": "Don",
+            "description": "Midi ətəkli don qadın üçün",
+            "rating": "4",
+            "price": "56",
+            "imageurl": "https://raw.githubusercontent.com/sooleymanli/Shopping-Cart--React-Firebase/Main/img/29.jpg",
+            "category": "woman"
+        },
+        {
+            "id": "30",
+            "caption": "Ağ Don",
+            "description": "Qadın üçün ətəyi güpurlu ağ rəngl don",
+            "rating": "5",
+            "price": "57",
+            "imageurl": "https://raw.githubusercontent.com/sooleymanli/Shopping-Cart--React-Firebase/Main/img/30.jpg",
+            "category": "woman"
+        },
+        {
+            "id": "31",
+            "caption": "Kurtka",
+            "description": "Tony Montana kurtka",
+            "rating": "1",
+            "price": "95",
+            "imageurl": "https://raw.githubusercontent.com/sooleymanli/Shopping-Cart--React-Firebase/Main/img/31.jpg",
+            "category": "man"
+        },
+        {
+            "id": "32",
+            "caption": "T-shirt",
+            "description": "Futbolka Jeep",
+            "rating": "2",
+            "price": "25",
+            "imageurl": "https://raw.githubusercontent.com/sooleymanli/Shopping-Cart--React-Firebase/Main/img/32.jpg",
+            "category": "man"
+        },
+        {
+            "id": "33",
+            "caption": "Palto",
+            "description": "BRANCO BERRE",
+            "rating": "3",
+            "price": "229",
+            "imageurl": "https://raw.githubusercontent.com/sooleymanli/Shopping-Cart--React-Firebase/Main/img/33.jpg",
+            "category": "man"
+        },
+        {
+            "id": "34",
+            "caption": "Kurtka",
+            "description": "BARCELO",
+            "rating": "4",
+            "price": "120",
+            "imageurl": "https://raw.githubusercontent.com/sooleymanli/Shopping-Cart--React-Firebase/Main/img/34.jpg",
+            "category": "man"
+        },
+        {
+            "id": "35",
+            "caption": "Köynəl",
+            "description": "Del Blasio Köynək",
+            "rating": "5",
+            "price": "39",
+            "imageurl": "https://raw.githubusercontent.com/sooleymanli/Shopping-Cart--React-Firebase/Main/img/35.jpg",
+            "category": "man"
+        },
+        {
+            "id": "36",
+            "caption": "KÖYNƏK",
+            "description": "LONDON TAİLORS KÖYNƏK",
+            "rating": "1",
+            "price": "59",
+            "imageurl": "https://raw.githubusercontent.com/sooleymanli/Shopping-Cart--React-Firebase/Main/img/36.jpg",
+            "category": "man"
+        },
+        {
+            "id": "37",
+            "caption": "Köynəyi",
+            "description": "Pierre Cardin kişi köynəyi",
+            "rating": "2",
+            "price": "45",
+            "imageurl": "https://raw.githubusercontent.com/sooleymanli/Shopping-Cart--React-Firebase/Main/img/37.jpg",
+            "category": "man"
+        },
+        {
+            "id": "38",
+            "caption": "Kişi sviteri",
+            "description": "Kişi sviteri",
+            "rating": "3",
+            "price": "140",
+            "imageurl": "https://raw.githubusercontent.com/sooleymanli/Shopping-Cart--React-Firebase/Main/img/38.jpg",
+            "category": "man"
+        },
+        {
+            "id": "39",
+            "caption": "Cins şalvar",
+            "description": "Cins şalvar",
+            "rating": "4",
+            "price": "120",
+            "imageurl": "https://raw.githubusercontent.com/sooleymanli/Shopping-Cart--React-Firebase/Main/img/39.jpg",
+            "category": "man"
+        },
+        {
+            "id": "40",
+            "caption": "T-Shirt",
+            "description": "Futbolka got me some vine",
+            "rating": "5",
+            "price": "25",
+            "imageurl": "https://raw.githubusercontent.com/sooleymanli/Shopping-Cart--React-Firebase/Main/img/40.jpg",
+            "category": "man"
+        }
+    ]
+}

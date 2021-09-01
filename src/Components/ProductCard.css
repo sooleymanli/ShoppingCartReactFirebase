@@ -1,0 +1,609 @@
+.data-item{
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -o-transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -webkit-transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -moz-transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    background-color: #fff;
+    width: 300px;
+    min-height: 420px;
+    max-height: 460px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px ;
+    border-radius: 5px;
+    margin:15px;
+    cursor: default;
+    transform: scale(1);
+    opacity: 0.95;
+}
+
+
+.data-item:hover{
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -o-transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -webkit-transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -moz-transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+opacity: 1;
+
+}
+.item-body{
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -o-transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -webkit-transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -moz-transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    transform: scale(1);
+
+}
+
+.item-body:hover .item-body:not(firs){
+    transform: scale(1);
+ 
+
+
+}
+.data-item .img{
+    width: 220px;
+    height: 220px;
+    background-position: center;
+    background-size: cover;
+    
+  
+}
+
+.data-item .img::after{
+    content: "";
+    width: 150px;
+    height: 220px;
+    background-color: #4e54c8;
+    position: relative;
+    left: 100px;
+}
+
+
+.data-item:hover .description{
+    display: block;
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1.4);
+
+
+}
+.title{
+    font-size: 20px;
+    margin-top: 10px;
+
+}
+
+.description{
+    font-size: 16px;
+    text-align: left;
+    margin-top: 10px;
+    min-height: 60px;
+
+}
+
+.item-footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.category{
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 5px;
+    cursor: default;
+}
+
+.price{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    color: #fff;
+    background-color:#4e54c8 ;
+cursor: default;
+border:1px solid  #fff;
+
+}
+
+
+
+.addtocart{
+    outline: none;
+    border: none;
+    width: 260px;
+    height: 40px;
+    font-size: 22px;
+    color: #fff;
+    background-color:#4e54c8 ;
+    border-radius: 5px;
+    border:1px solid #4e54c8;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    padding: 2px;
+    margin-bottom: 10px;
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -o-transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -webkit-transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -moz-transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.addtocart:hover{
+    background-color:#12188f ;
+    color: #fff ;
+    border:1px solid  #4e54c8;
+}
+
+.addtocart i{
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.rating span{
+    margin-left: 5px;
+    color:#4e54c8;
+}
+
+/* .rating span:not(:last-child){
+    margin-left: 5px;
+    color:rgb(221, 207, 12);
+} */
+
+
+
+@media screen and (max-width: 1024px) {
+    .data-item{
+        background-color: #fff;
+        width: 33vw;
+        min-height: 50vw;
+        max-height: 70vw;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 5px ;
+        border-radius: 5px;
+        margin:15px;
+        transform: scale(1);
+        transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1.4);
+        cursor: default;
+    
+    }
+}
+
+
+
+@media screen and (max-width: 769px) {
+
+    .data-item{
+        background-color: #fff;
+        width: 32vw;
+        min-height: 60vw;
+        max-height: 70vw;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 5px ;
+        border-radius: 5px;
+        margin:15px;
+       
+        transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1.4);
+        cursor: default;
+    
+    }
+
+
+    
+
+.item-body{
+    
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+
+}
+.data-item .img{
+    width: 20vw;
+    background-position: center;
+    background-size: cover;
+    
+    background-image: url('https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg');
+}
+
+.data-item .img::after{
+    content: "";
+    width: 150px;
+    height: 220px;
+    background-color: #4e54c8;
+    position: relative;
+    left: 100px;
+}
+
+
+.data-item:hover .description{
+    display: block;
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1.4);
+
+
+}
+.title{
+    font-size: 2vw;
+    margin-top: 10px;
+
+}
+
+.description{
+    font-size: 1.5vw;
+    text-align: justify;
+    margin-top: 10px;
+
+}
+
+.item-footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.category{
+    font-size: 1.5vw;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 5px;
+    cursor: default;
+}
+
+.price{
+    font-size: 1.5vw;
+    font-weight: 500;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    color: #fff;
+    background-color:#4e54c8 ;
+cursor: default;
+border:1px solid  #fff;
+
+}
+
+
+
+.addtocart{
+    outline: none;
+    border: none;
+    width: 25vw;
+    height: 5vw;
+    font-size: 2.5vw;
+    color: #fff;
+    background-color:#4e54c8 ;
+    border-radius: 5px;
+    border:1px solid #4e54c8;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    padding: 2px;
+}
+
+.addtocart:hover{
+    background-color:#12188f ;
+    color: #fff ;
+    border:2px solid  #4e54c8;
+}
+
+.addtocart i{
+    font-size: 2.5vw;
+    margin-right: 10px;
+}
+
+.rating span{
+    margin-left: 5px;
+    color:#4e54c8;
+}
+
+.rating span:not(:last-child){
+    margin-left: 5px;
+    color:rgb(221, 207, 12);
+}
+
+
+}
+
+  @media screen and (max-width: 576px) {
+    .data-item{
+        background-color: #fff;
+        width: 90vw;
+        min-height: 400px;
+        max-height: 460px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px ;
+        border-radius: 5px;
+        margin:15px;
+       
+        transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1.4);
+        cursor: default;
+    
+    }
+    
+ 
+    .item-body{
+        
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 5px;
+    
+    }
+    .data-item .img{
+        width: 150px;
+        height: 220px;
+        background-position: center;
+        background-size: cover;
+        
+        background-image: url('https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg');
+    }
+    
+    .data-item .img::after{
+        content: "";
+        width: 150px;
+        height: 220px;
+        background-color: #4e54c8;
+        position: relative;
+        left: 100px;
+    }
+    
+    
+    .data-item:hover .description{
+        display: block;
+        transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1.4);
+    
+    
+    }
+    .title{
+        font-size: 20px;
+        margin-top: 10px;
+    
+    }
+    
+    .description{
+        font-size: 16px;
+        text-align: justify;
+        margin-top: 10px;
+    
+    }
+    
+    .item-footer{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+    
+    .category{
+        font-size: 18px;
+        font-weight: 500;
+        text-transform: uppercase;
+        padding: 5px;
+        cursor: default;
+    }
+    
+    .price{
+        font-size: 18px;
+        font-weight: 500;
+        padding: 5px 10px 5px 10px;
+        border-radius: 5px;
+        color: #fff;
+        background-color:#4e54c8 ;
+    cursor: default;
+    border:1px solid  #fff;
+    
+    }
+    
+    
+    
+    .addtocart{
+        outline: none;
+        border: none;
+        width: 260px;
+        height: 40px;
+        font-size: 22px;
+        color: #fff;
+        background-color:#4e54c8 ;
+        border-radius: 5px;
+        border:1px solid #4e54c8;
+        display: flex;
+        align-items: baseline;
+        justify-content: center;
+        padding: 2px;
+    }
+    
+    .addtocart:hover{
+        background-color:#12188f ;
+        color: #fff ;
+        border:2px solid  #4e54c8;
+    }
+    
+    .addtocart i{
+        font-size: 20px;
+        margin-right: 10px;
+    }
+    
+    .rating span{
+        margin-left: 5px;
+        color:#4e54c8;
+    }
+    
+    .rating span:not(:last-child){
+        margin-left: 5px;
+        color:rgb(221, 207, 12);
+    }
+    
+  }
+
+  @media screen and (max-width: 280px) {
+    .data-item{
+        background-color: #fff;
+        width: 90vw;
+        min-height: 500px;
+        max-height: 560px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px ;
+        border-radius: 5px;
+        margin:10px;
+   
+        transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1.4);
+        cursor: default;
+    
+    }
+    
+   
+    .item-body{
+        
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 5px;
+    
+    }
+    .data-item .img{
+        width: 150px;
+        height: 220px;
+        background-position: center;
+        background-size: cover;
+        
+        background-image: url('https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg');
+    }
+    
+    .data-item .img::after{
+        content: "";
+        width: 150px;
+        height: 220px;
+        background-color: #4e54c8;
+        position: relative;
+        left: 100px;
+    }
+    
+    
+    .data-item:hover .description{
+        display: block;
+        transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1.4);
+    
+    
+    }
+    .title{
+        font-size: 20px;
+        margin-top: 10px;
+    
+    }
+    
+    .description{
+        font-size: 16px;
+        text-align: justify;
+        margin-top: 10px;
+    
+    }
+    
+    .item-footer{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+    
+    .category{
+        font-size: 18px;
+        font-weight: 500;
+        text-transform: uppercase;
+        padding: 5px;
+        cursor: default;
+    }
+    
+    .price{
+        font-size: 16px;
+        font-weight: 500;
+        padding: 5px 10px 5px 10px;
+        border-radius: 5px;
+        color: #fff;
+        background-color:#4e54c8 ;
+    cursor: default;
+    border:1px solid  #fff;
+    
+    }
+    
+    
+    
+    .addtocart{
+        outline: none;
+        border: none;
+        width: 200px;
+        height: 40px;
+        font-size: 22px;
+        color: #fff;
+        background-color:#4e54c8 ;
+        border-radius: 5px;
+        border:1px solid #4e54c8;
+        display: flex;
+        align-items: baseline;
+        justify-content: center;
+        padding: 2px;
+    }
+    
+    .addtocart:hover{
+        background-color:#12188f ;
+        color: #fff ;
+        border:2px solid  #4e54c8;
+    }
+    
+    .addtocart i{
+        font-size: 18px;
+        margin-right: 10px;
+    }
+    
+    .rating span{
+        margin-left: 3px;
+        color:#4e54c8;
+    }
+    
+    .rating span:not(:last-child){
+        margin-left: 3px;
+        color:rgb(221, 207, 12);
+    }
+    
+  }
+.danger{
+    background-color: red;
+    border: none;
+}
+  .danger:hover{
+      cursor:not-allowed;
+      background-color: red;
+      border: none;
+      color: #fff;
+  }
+
+
+
+  

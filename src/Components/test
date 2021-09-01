@@ -1,0 +1,81 @@
+  const addToCart = (indexx) => {
+    
+    if (cartData.cartdata.length === 0) {
+      setCartData({ cartdata: [{ ...axiosLink.products[indexx], "pieces":1}] })
+      setOrderCount(orderCount + 1)
+      console.log(cartData.cartdata)
+
+    }else {
+      newCartData=cartData.cartdata
+      arrIndex= newCartData.findIndex(e=>e.id===axiosLink.products[indexx].id)
+if(arrIndex>=0){
+  arrElement=newCartData[arrIndex]
+  arrElement.pieces=arrElement.pieces+1
+  newCartData.splice(arrIndex,1)
+  setCartData({cartdata:[...newCartData,arrElement]})
+  setOrderCount(orderCount+1)
+}else{
+setCartData({cartdata:[...newCartData,{...axiosLink.products[indexx],"pieces":1}]})
+setOrderCount(orderCount+1)
+
+}
+     
+  }
+}
+
+
+
+
+
+
+   
+ <div className="login animate__animated animate__fadeInDownBig animate__delay-0.7s ">
+
+                <div className="login-body">
+    <div className="false-body ">
+               <div className="false-buttons">
+                   <Link to="/products" style={{textDecoration:"none"}}><span>Məhsullar</span></Link>
+                   <Link to="/cart" style={{textDecoration:"none"}}><span>Səbət</span></Link>
+               </div>
+               </div>
+
+                </div>
+               </div>
+
+
+
+
+
+
+<div className="login animate__animated animate__fadeInDownBig animate__delay-0.7s ">
+
+                <div className="login-body">
+               <div className="login-content">
+    <div className="login-caption">
+      DAXİL OL
+    </div>
+    <hr></hr>
+    <div className="login-form">
+        <div className="email">
+            <input type="email" name="email" id="email" placeholder="Email" autoComplete="off" onChange={(e)=>setEmail(e.target.value)} />
+        </div>
+        <div className="password">
+            <input type="password" name="password" id="password" placeholder="Şifrə" autoComplete="off"  onChange={(e)=>setPassword(e.target.value)}/>
+        </div>
+
+        <div className="login-footer">
+
+            <div className="register-class">
+                <Link to="/register" className="register-link">QEYDİYYAT</Link>
+            </div>
+
+            <div className="login-submit">
+                <button onClick={handleSignIn}>DAXİL OL</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+    </div>
+</div>
