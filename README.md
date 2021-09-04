@@ -2,8 +2,7 @@
 
 
 ## Live Demo
-1. #### [Live Demo (Fuadsuleymanli.com) ](https://fuadsuleymanli.com/Demos/ShoppingCart/) 
-2. #### [Live Demo (github.io) ](https://sooleymanli.github.io/ShoppingCartReactFirebase/) 
+1. #### [Live Demo (github.io) ](https://sooleymanli.github.io/ShoppingCartReactFirebase/) 
 
 ## Screenshot
 ![ScreenShot](screenshot.gif)
