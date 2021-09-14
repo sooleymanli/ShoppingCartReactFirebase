@@ -1,4 +1,4 @@
-## Shopping Cart (React + Firebase) Project
+## Shopping-Cart (React + Firebase) Project
 
 
 ## Live Demo
